@@ -12,8 +12,8 @@ func TransposeMatrix(matrix [][]int) [][]int {
 		transposed_matrix[i] = make([]int, rows)
 	}
 
-	for i := 0; i < cols; i++ {
-		for j := 0; j < rows; j++ {
+	for i := 0; i < rows; i++ {
+		for j := 0; j < cols; j++ {
 			transposed_matrix[j][i] = matrix[i][j]
 
 		}
