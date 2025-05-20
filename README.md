@@ -3,5 +3,5 @@
 
 ![Go logo](assets/go.png)
 
-> NOTE
+> [!NOTE]
 > Repositório onde versiono código de exercicios escritos em Golang.
